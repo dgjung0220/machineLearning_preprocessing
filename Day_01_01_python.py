@@ -74,9 +74,13 @@ elif a > 0:
 else:
     print('제로')
 # python 에는 switch 문은 존재하지 않는다.
+print('-' * 50)
 
 # 함수
-def f_1():
-    print('f_1')
+def f_1(c, d):
+    print('f_1', c+d)
+    return c+d
+
+print(f_1(12, 34)) # return 을 명시하지 않아도 기본 반환값 None을 호출한다.
 
 print()
