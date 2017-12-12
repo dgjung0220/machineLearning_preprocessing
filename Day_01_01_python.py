@@ -177,3 +177,75 @@ a6, a7 = f_2(7,3)
 print(a6, a7) # 4 10
 
 # dictionary, 함수 확장
+a6, a7 = f_2(7, 3)
+print(a6, a7)
+print('-' * 50)
+
+# 영한 사전 : 영어 단어를 찾으면 한글 설명이 나옴.
+# 영어 단어 : key
+# 한글 설명 : value
+
+#     key             value
+d = {'name' : 'hoon', 'age' : 20, 3 : 4}
+print(d)
+print(d['name'], d['age'])
+
+d2 = dict(name = 'hoon', age = 20)
+# d2 = dict(name = 'hoon', age = 20, 3 = 4) # 에러
+print(d2)
+
+# 데이터 추가시, 아래와 같이 정의
+d2['addr'] = 'suji'
+print(d2)
+
+# 반복문도 가능.
+for k in d2 :
+    print(k, d2[k])
+print('-' * 50)
+
+def f_3(a, b, c):
+    print(a, b, c, sep='**', end='\n\n') # sep의 default는 공백
+
+f_3(1, 2, 3)                # positional argument
+f_3(a=1, b=2, c=3)          # keyword argument
+f_3(b=2, c=3, a=1)
+f_3(1, b=2, c=3)            # positional 과 keyword 방식 섞어 사용할 수도 있다.
+# f_3(a=1, 2 , c=3)         # position은 keyword 앞에 사용해야 함. error
+print('-'*50)
+
+def f_4(*args):             # 가변 인자, 앞쪽에 *를 붙이면 된다. packing
+    print(args, *args)      # (force) unpacking
+
+f_4()
+f_4(1)
+f_4(1,2)
+f_4(1,2,3)
+
+# python 에서 * 가 사용되는 곳.
+# a * b
+# a *= b
+
+a = [1, 3, 5]
+print(a)                # [1, 3, 5] 한개 넘어감
+print(*a)               # 1 3 5    force unpacking, 세 개 넘어가는 효과
+print(*a, sep='\n')     # 반복문 print 처럼사용 가능
+print('-' * 50)
+
+def f_5(**kwargs):          # keyword 가변 인자 # 반드시 keyword 형태로 전달해야 한다.
+    print(kwargs)
+    print(type(kwargs))     # data 형태 dictionary
+
+# 문제
+# f_5 를 호출하는 3 가지 방법
+f_5()
+f_5(a=1)
+f_5(a=1, b=2)
+
+# dictionary 를 만드는 함수. dict 함수와 동일
+def f_6(**kwargs):
+    return kwargs
+
+d = f_6(a=1, b=2)
+print(d)
+
+
