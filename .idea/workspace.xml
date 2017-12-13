@@ -2,18 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c12acc-26f6-44b9-b2f3-0cb0808ed529" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day_02_04_json.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day_02_05_pandas.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Day_02_06_matplotlib_balance.py" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/__MACOSX/._world-series" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/__MACOSX/world-series/._MLB World Series Champions_ 1903-2016.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/__MACOSX/world-series/._MLB World Series Losers_ 1903-2016.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/__MACOSX/world-series/._World Series Champions vs. Losers_ 1903-2016.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/world-series/MLB World Series Champions_ 1903-2016.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/world-series/MLB World Series Losers_ 1903-2016.xlsx" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/world-series/world-series/World Series Champions vs. Losers_ 1903-2016.xlsx" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day_03_01_colormap.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day_03_02_pandas.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day_03_03_pandas_movie.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/Day_03_04_matplotlib.py" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Day_02_03_matplotlib.py" afterPath="$PROJECT_DIR$/Day_02_03_matplotlib.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,17 +19,71 @@
     <favorites_list name="DGJUNG" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.5">
+    <splitter split-orientation="horizontal" split-proportion="0.61820483">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="Day_02_06_matplotlib_balance.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Day_02_06_matplotlib_balance.py">
+          <file leaf-file-name="Day_03_02_pandas.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Day_03_02_pandas.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="361">
-                  <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+                <state relative-caret-position="490">
+                  <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
                   <folding>
-                    <element signature="e#35#53#0" expanded="true" />
+                    <element signature="e#130#141#0" expanded="false" />
+                    <element signature="e#820#824#0" expanded="false" />
+                    <element signature="e#880#917#0" expanded="false" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="README" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ml-1m/README">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="376">
+                  <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="19" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Day_03_03_pandas_movie.py" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Day_03_03_pandas_movie.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="466">
+                  <caret line="112" column="20" lean-forward="false" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+                  <folding>
+                    <element signature="e#29#47#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Day_03_04_matplotlib.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Day_03_04_matplotlib.py">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="19">
+                  <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="movies.dat" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ml-1m/movies.dat">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="scores.csv" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/Data/scores.csv">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="171">
+                  <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -45,25 +92,15 @@
       </split-first>
       <split-second>
         <leaf>
-          <file leaf-file-name="Day_02_05_pandas.py" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/Day_02_05_pandas.py">
+          <file leaf-file-name="Day_03_02_pandas.py" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/Day_03_02_pandas.py">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="908">
-                  <caret line="81" column="51" lean-forward="false" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
+                <state relative-caret-position="333">
+                  <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
                   <folding>
-                    <element signature="e#22#40#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="Day_02_03_matplotlib.py" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/Day_02_03_matplotlib.py">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="326">
-                  <caret line="141" column="39" lean-forward="false" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="39" />
-                  <folding>
-                    <element signature="e#27#45#0" expanded="true" />
+                    <element signature="e#130#141#0" expanded="false" />
+                    <element signature="e#820#824#0" expanded="false" />
+                    <element signature="e#880#917#0" expanded="false" />
                   </folding>
                 </state>
               </provider>
@@ -103,11 +140,17 @@
         <option value="$PROJECT_DIR$/Day_02_03_matplotlib.py" />
         <option value="$PROJECT_DIR$/Day_02_05_pandas.py" />
         <option value="$PROJECT_DIR$/Day_02_06_matplotlib_balance.py" />
+        <option value="$PROJECT_DIR$/Day_03_01_colormap.py" />
+        <option value="$PROJECT_DIR$/Day03_02_pandas.py" />
+        <option value="$PROJECT_DIR$/Day_03_02_pandas.py" />
+        <option value="$PROJECT_DIR$/Day_03_03_pandas_movie.py" />
+        <option value="$PROJECT_DIR$/Day_03_04_matplotlib.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="573" />
+    <option name="y" value="19" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -128,7 +171,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -145,12 +187,16 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Desktop\DGJUNG" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\user\Desktop\DGJUNG" />
       <recent name="C:\Users\user\Desktop\DGJUNG\Data" />
@@ -168,61 +214,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Day_02_06_matplotlib_balance">
-    <configuration name="Day_02_02_numpy" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DGJUNG" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_02_02_numpy.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Day_02_03_matplotlib" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DGJUNG" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_02_03_matplotlib.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
-    <configuration name="Day_02_04_json" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="DGJUNG" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_02_04_json.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-    </configuration>
+  <component name="RunManager" selected="Python.Day_03_03_pandas_movie">
     <configuration name="Day_02_05_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -259,20 +251,74 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="Day_03_01_colormap" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DGJUNG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_03_01_colormap.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Day_03_02_pandas" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DGJUNG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_03_02_pandas.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="Day_03_03_pandas_movie" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="DGJUNG" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Day_03_03_pandas_movie.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.Day_02_02_numpy" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Day_02_03_matplotlib" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Day_02_04_json" />
-      <item index="3" class="java.lang.String" itemvalue="Python.Day_02_05_pandas" />
-      <item index="4" class="java.lang.String" itemvalue="Python.Day_02_06_matplotlib_balance" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Day_02_05_pandas" />
+      <item index="1" class="java.lang.String" itemvalue="Python.Day_02_06_matplotlib_balance" />
+      <item index="2" class="java.lang.String" itemvalue="Python.Day_03_01_colormap" />
+      <item index="3" class="java.lang.String" itemvalue="Python.Day_03_02_pandas" />
+      <item index="4" class="java.lang.String" itemvalue="Python.Day_03_03_pandas_movie" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.Day_02_06_matplotlib_balance" />
-        <item index="1" class="java.lang.String" itemvalue="Python.Day_02_05_pandas" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Day_02_03_matplotlib" />
-        <item index="3" class="java.lang.String" itemvalue="Python.Day_02_04_json" />
-        <item index="4" class="java.lang.String" itemvalue="Python.Day_02_02_numpy" />
+        <item index="0" class="java.lang.String" itemvalue="Python.Day_03_03_pandas_movie" />
+        <item index="1" class="java.lang.String" itemvalue="Python.Day_03_02_pandas" />
+        <item index="2" class="java.lang.String" itemvalue="Python.Day_03_01_colormap" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Day_02_06_matplotlib_balance" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Day_02_05_pandas" />
       </list>
     </recent_temporary>
   </component>
@@ -294,14 +340,14 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17604166" sideWeight="0.49624866" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28556263" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3715499" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976827" sideWeight="0.50375134" order="2" side_tool="true" content_ui="tabs" />
@@ -311,6 +357,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290461" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -322,11 +369,40 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Day_02_06_matplotlib_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1634">
+          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+          <folding>
+            <element signature="e#35#53#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_02_05_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#22#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_02_03_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2622">
+          <caret line="141" column="39" lean-forward="false" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="39" />
+          <folding>
+            <element signature="e#27#45#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Day_01_01_python.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -334,9 +410,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1406">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -344,9 +417,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-          <folding>
-            <element signature="e#22#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -354,9 +424,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="e#20#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -364,7 +431,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3401">
           <caret line="179" column="0" lean-forward="false" selection-start-line="179" selection-start-column="0" selection-end-line="179" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -372,9 +438,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1368">
           <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#18#49#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -382,9 +445,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-          <folding>
-            <element signature="e#22#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -392,9 +452,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="893">
           <caret line="48" column="57" lean-forward="false" selection-start-line="48" selection-start-column="57" selection-end-line="48" selection-end-column="57" />
-          <folding>
-            <element signature="e#20#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -402,7 +459,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="6" column="46" lean-forward="true" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -410,9 +466,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1900">
           <caret line="102" column="39" lean-forward="false" selection-start-line="102" selection-start-column="39" selection-end-line="102" selection-end-column="39" />
-          <folding>
-            <element signature="e#22#40#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -420,7 +473,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -428,9 +480,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
           <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="14" />
-          <folding>
-            <element signature="e#20#29#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -438,9 +487,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
           <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
-          <folding>
-            <element signature="e#24#33#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -456,9 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
           <caret line="48" column="18" lean-forward="false" selection-start-line="48" selection-start-column="18" selection-end-line="48" selection-end-column="18" />
-          <folding>
-            <element signature="e#21#32#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -466,7 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="13" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -474,13 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="509">
           <caret line="128" column="43" lean-forward="false" selection-start-line="128" selection-start-column="43" selection-end-line="128" selection-end-column="43" />
-          <folding>
-            <element signature="e#260#264#0" expanded="false" />
-            <element signature="e#863#914#0" expanded="false" />
-            <element signature="e#1720#1741#0" expanded="false" />
-            <element signature="e#2064#2068#0" expanded="false" />
-            <element signature="e#2238#2242#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -488,7 +523,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="535">
           <caret line="75" column="0" lean-forward="false" selection-start-line="75" selection-start-column="0" selection-end-line="77" selection-end-column="38" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -496,37 +530,107 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="928">
           <caret line="235" column="8" lean-forward="false" selection-start-line="235" selection-start-column="8" selection-end-line="235" selection-end-column="8" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_03_01_colormap.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="533">
+          <caret line="169" column="0" lean-forward="true" selection-start-line="169" selection-start-column="0" selection-end-line="169" selection-end-column="0" />
+          <folding>
+            <element signature="e#25#43#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_02_03_matplotlib.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="326">
+        <state relative-caret-position="357">
           <caret line="141" column="39" lean-forward="false" selection-start-line="141" selection-start-column="35" selection-end-line="141" selection-end-column="39" />
           <folding>
-            <element signature="e#27#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Day_02_05_pandas.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="908">
-          <caret line="81" column="51" lean-forward="false" selection-start-line="81" selection-start-column="51" selection-end-line="81" selection-end-column="51" />
-          <folding>
-            <element signature="e#22#40#0" expanded="true" />
+            <element signature="e#27#45#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Day_02_06_matplotlib_balance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="86" column="49" lean-forward="true" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
+        <state relative-caret-position="475">
+          <caret line="86" column="49" lean-forward="false" selection-start-line="86" selection-start-column="49" selection-end-line="86" selection-end-column="49" />
           <folding>
-            <element signature="e#35#53#0" expanded="true" />
+            <element signature="e#35#53#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_02_05_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="90" column="29" lean-forward="false" selection-start-line="90" selection-start-column="29" selection-end-line="90" selection-end-column="29" />
+          <folding>
+            <element signature="e#22#40#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-1m/ratings.dat">
+      <provider selected="true" editor-type-id="LargeFileEditor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Data/scores.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="20" lean-forward="false" selection-start-line="9" selection-start-column="20" selection-end-line="9" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-1m/README">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="376">
+          <caret line="127" column="19" lean-forward="false" selection-start-line="127" selection-start-column="12" selection-end-line="127" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ml-1m/movies.dat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_03_02_pandas.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="490">
+          <caret line="82" column="22" lean-forward="false" selection-start-line="82" selection-start-column="22" selection-end-line="82" selection-end-column="22" />
+          <folding>
+            <element signature="e#130#141#0" expanded="false" />
+            <element signature="e#820#824#0" expanded="false" />
+            <element signature="e#880#917#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_03_03_pandas_movie.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="112" column="20" lean-forward="false" selection-start-line="112" selection-start-column="20" selection-end-line="112" selection-end-column="20" />
+          <folding>
+            <element signature="e#29#47#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Day_03_04_matplotlib.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
