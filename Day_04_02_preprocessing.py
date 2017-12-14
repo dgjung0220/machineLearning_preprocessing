@@ -137,6 +137,9 @@ def use_MinMaxScaler():
     scaler.fit(x)
     print(scaler.transform(x))
 
+    sample = [[1. , -1. ,2.]]
+    print(scaler.transform(sample))
+
     # (x - 최소값) / (최대값 - 최소값) # 전체 기준, min max scaler
     xx = np.array(x).reshape(-1)
     print(xx)
