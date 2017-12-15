@@ -1,5 +1,4 @@
 ### Python 기본 문법
-
 machine learning을 위한 tensorflow, scikit-learn 등을 다루기 위해 파이썬 기본 문법을
 파악해야한다.
 ---
@@ -9,7 +8,7 @@ machine learning을 위한 tensorflow, scikit-learn 등을 다루기 위해 파�
     * (분석-NumPy,pandas)[파이썬 라이브러리를 활용한 데이터 분석](http://www.hanbit.co.kr/store/books/look.php?p_code=B6540908288)
     * (분석-Scikitlearn)[파이썬 라이브러리를 활용한 머신러닝](http://www.hanbit.co.kr/store/books/look.php?p_code=B6119391002)
 --- 
-##### 변수 타입
+#### 변수 타입
 파이썬 기본 데이터 타입은 아래 네 가지(int, float, bool, str)가 있다.
 ```python
 print(type(12), type(3.14), type(True), type('hello') )
@@ -20,7 +19,7 @@ print(type(12), type(3.14), type(True), type('hello') )
 <class 'int'> <class 'float'> <class 'bool'> <class 'str'>
 ```
 
-##### 문자, 타입 변환
+#### 문자, 타입 변환
 숫자 문자열을 int, float 로 변환할 수 있다.
 ```python
 a = '123'
@@ -35,7 +34,7 @@ a = float(a)
 print(type(a))          # <class 'float'>
 ```
 
-##### python 의 다중 치환
+#### python 의 다중 치환
 python은 아래와 같이 다중 치환이 가능하다. 다중 치환이 가능한 이유는 파이썬의 튜플(tuple) 덕분이다.
 ```python
 a,b = 3, 7
@@ -47,7 +46,7 @@ print(a,b)
 print(a,b)
 ```
 
-*다중 치환을 이용한 파이썬의 Swap()*
+>*다중 치환을 이용한 파이썬의 Swap()*
 ```python
 a, b = b, a
 print(a,b)
