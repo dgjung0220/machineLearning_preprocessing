@@ -37,12 +37,12 @@ print(type(a))          # <class 'float'>
 
 #### python 의 다중 치환
 python은 아래와 같이 다중 치환이 가능하다. 다중 치환이 가능한 이유는 파이썬의 튜플(tuple) 덕분이다.
-```
+```python
 a,b = 3, 7
 print(a,b)
 ```
 위의 코드에서는 3, 7 이 따로 치환된 것처럼 보이지만 실제로는 아래처럼 하나의 튜플이 대입된 것이다.
-```
+```python
 (a,b) = (3, 7)        # tuple(a,b) = tuple(3, 7)
 print(a,b)
 ```
@@ -65,7 +65,7 @@ print(a % b)        # 나머지
 ```
 
 #### 문자 핸들링
-```
+```python
 print('hello' + 'python')           # hellopython
 print('hello' * 3)
 ```
@@ -80,13 +80,13 @@ print(a != b)
 ```
 #### python 의 범위 연산자
 아래와 같은 범위 연산 표현은 파이썬의 주요한 특징이다.
-```
+```python
 age = 15
 print(10 <= age <= 19)          # True
 ```
 #### 논리 연산
 AND / OR 연산이 가능핟.
-```
+```python
 print(True and True)            # True
 print(True and False)           # False
 print(False and True)           # False
@@ -94,14 +94,13 @@ print(False and False)          # False
 ```
 #### if 문
 파이썬의 조건문은 if~else / elif 로 사용한다. switch 문은 존재하지 않는다.
-```
+```python
 a = 3
 if a % 2 == 1:
     print('홀수')
 else:
     print('짝수')
-```
-```
+
 if a < 0:
     print('음수')
 elif a > 0:
@@ -112,7 +111,7 @@ else:
 
 #### 함수
 python 의 함수는 def 를 사용하여 선언한다. 기본적으로 python의 함수는 return 을 명시하지 않아도 기본적으로 'None'를 반환한다.
-```
+```python
 def f_1(c, d):
     print('f_1', c+d)
     return c+d
@@ -121,7 +120,7 @@ print(f_1(12, 34))          # return 을 명시하지 않아도 기본 반환값
 
 #### 반복문
 for 문을 이용하여 반복문을 수행한다. range() 함수를 이용하면 쉽게 반복이 가능하다. 아래는 range() 를 이용한 여러 가지 방식이다.
-```
+```python
 for i in range(5):                  # 0~4까지 반복
     print(i, end=' ')
 
@@ -141,7 +140,7 @@ for i in enumerate(range(5,10)):    # enumerate : 나열하다. # 자신만의 �
 
 #### Collections : list, tuple, set, dictionary
 #### list 
-```
+```python
 a = [1, 3, 5]                    
 print(a)                        # [1, 3, 5]
 print(a[0], a[1], a[2])         # 1 3 5
@@ -153,7 +152,7 @@ for i in a:                     # a 3번 반복
     print(i, end= ' ')
 ```
 list 에는 여러 가지 형태를 넣을 수 있다.
-```
+```python
 c = [2,4,6]
 c.append(8)                     # [2, 4, 6, 8]
 c.append([10])                  # [2, 4, 6, 8, 10]
@@ -170,7 +169,7 @@ print(c)                        # [99, 4, 6, 8, 10]
 
 #### tuple
 list와 동일하게 사용할 수 있다. [] 는 list, () 는 tuple. 하지만 변경할 수 없으므로, '상수 리스트' 라고도 부른다.
-```
+```python
 d = (1, 3, 5)
 print(d)                        # (1, 3, 5)
 
@@ -181,7 +180,7 @@ d[0] = 1                        # error. 튜플은 데이터를 변경할 수 �
 d.append(17)                    # error.
 ```
 tuple은 파이썬 내부 계산에서 많이 사용한다.ㅍ다중 치환이 되는 이유도 tuple 때문임, 아래와 같이 다중 치환할 경우, 튜플 하나를 대입하는 것과 같다.
-```
+```python
 (a1, a2) = (3, 4)
 print(a1, a2)                   # 3 4
 
@@ -198,12 +197,12 @@ a6, a7 = f_2(7,3)
 print(a6, a7)                   # 4 10
 ```
 #### dictionary
-```
+```python
 d = {'name' : 'DONGGOO', 'age' : 20, 3 : 4}         # 3도 딕셔너리의 키 값으로 사용 가능.
 print(d)                                            # {'age': 20, 3: 4, 'name': 'DONGGOO'}
-print(d['name'], d['age'], d[3)                     # DONGGOO 20 4
+print(d['name'], d['age'], d[3])                     # DONGGOO 20 4
 
-d2 = dict(name = 'hoon', age = 20, 3 = 4)           # Error. int형은 '=' 로 불가능.
+# d2 = dict(name = 'hoon', age = 20, 3 = 4)           # Error. int형은 '=' 로 불가능.
 
 d['addr'] = 'Seoul'                                 # 데이터 추가 가능.
 print(d)                                            # {'age': 20, 3: 4, 'name': 'DONGGOO', 'addr': 'Seoul'}
@@ -214,7 +213,7 @@ for k in d :                                        # 반복문 가능.
 
 #### argument
 ##### Positional & Keyword argument
-```
+```python
 def f_3(a, b, c):
     print(a, b, c, sep='**', end='\n\n')            # sep=seperator, default 공백
 
@@ -222,10 +221,10 @@ f_3(1, 2, 3)                                        # positional argument
 f_3(a=1, b=2, c=3)                                  # keyword argument
 f_3(b=2, c=3, a=1)
 f_3(1, b=2, c=3)                                    # positional 과 keyword 방식 섞어 사용할 수도 있다.
-f_3(a=1, 2 , c=3)                                   # error. position은 keyword 앞에 사용해야 함.
+# f_3(a=1, 2 , c=3)                                   # error. position은 keyword 앞에 사용해야 함.
 ```
 ##### 가변 인자 전달 방식
-```
+```python
 def f_4(*args):                                     # 가변 인자, 앞쪽에 *를 붙이면 된다. packing
     print(args, *args)                              # *, (force) unpacking
 
