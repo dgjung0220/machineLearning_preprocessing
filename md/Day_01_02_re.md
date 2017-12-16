@@ -59,3 +59,54 @@ print(name_t)
 name_not_t = re.findall(r'[A-SU-Z][a-z]+', db)
 print(name_not_t)
 ```
+
+#### Requests 모듈을 이용한 외부 데이터의 추출
+Python 에서 HTTP Request 를 위해 사용되는 모듈인 requests(`import re`) 를 이용하여, kma의 데이터를 정규 표현식으로 파싱한다.
+```python
+url = 'http://www.kma.go.kr/DFSROOT/POINT/DATA/top.json.txt'
+received = requests.get(url)
+print(received)                                 # <Response [200]>
+print(received.text)                            # 한글 꺠짐
+```
+received.text의 한글 깨짐 문제는 decoding으로 해결할 수 있다.
+```
+text = received.content.decode('utf-8')         # utf-8 decoding
+print(text)
+
+# [{"code":"11","value":"서울특별시"},{"code":"26","value":"부산광역시"},{"code":"27","value":"대구광역시"},{"code":"28","value":"인천광역시"},{"code":"29","value":"광주광역시"},{"code":"30","value":"대전광역시"},{"code":"31","value":"울산광역시"},{"code":"41","value":"경기도"},{"code":"42","value":"강원도"},{"code":"43","value":"충청북도"},{"code":"44","value":"충청남도"},{"code":"45","value":"전라북도"},{"code":"46","value":"전라남도"},{"code":"47","value":"경상북도"},{"code":"48","value":"경상남도"},{"code":"50","value":"제주특별자치도"}]
+```
+#### 코드 번호와 도시 이름만 출력
+위의 데이터는 json 형식으로 되어있다. json 모듈을 이용하여 code와 value를 깔끔하게 출력할 수 있지만, 정규 표현식을 이용하여 아래와 같이 뽑을 수 있다.
+```python 
+codes = re.findall(r'\d+', text)
+print(codes)
+cities = re.findall(r'[가-힣]+', text)
+print(cities)
+```
+위의 방법뿐만 아니라 전체적인 패턴을 이용한 아래와 같은 방식을 사용할 수 있다.
+```python
+codes = re.findall(r'"code":"([0-9]+)"', text)
+print(codes)
+cities = re.findall(r'"value":"(.+?)"', text)
+print(cities)
+```
+전체적인 패턴에서 추출하고 싶은 데이터 영역을 ()로 선택할 수 있는데, 이 떄 도시에서 사용된 .+? 형식은 하나 또는 그 이상의 문자 형식을 매치할 때 많이 쓰이는 정규표현식 패턴이다. 
+일반적으로 (.+)(greedy) 과 (.+?)(non-greedy) 형식을 많이 쓰며 그 차이점은 [스택 오버플로우](https://stackoverflow.com/questions/14213848/difference-between-and)에 잘 설명되어 있다.
+#### 코드 번호와 도시 이름을 동시에 출력
+```
+result = re.findall(r'.+?:"(.+?)"."value":"(.+?)"', text)
+print(result)
+
+# 다중 치환을 이용한 tuple print
+for code, city in result:
+    print(code, city)
+```
+> *Json 모듈을 이용한 파싱*
+```python
+import json
+
+jsonString = json.loads(text)
+
+for i in jsonString:
+    print(i['code'], ':', i['value'])
+```
