@@ -91,3 +91,55 @@ print(a[a>1])                               # 1보다 큰 것들만 출력 # [2 
 ```python
 print(np.sin(a))                            # Universal function
 ```
+
+배열의 차원과 무관하게 Broadcasting, Universal function이 적용된다.
+```python
+b = np.arange(6).reshape(-1,3)
+print(b)
+print(b + 1)
+print(b ** 2)
+print(b > 1)
+print(b[b>1])
+```
+
+#### 행렬 곱 : np.dot()
+```python
+c = np.arange(6).reshape(-1,3)
+
+test1 = np.arange(4).reshape(-1,2)
+test2 = np.arange(6).reshape(-1,2)
+test3 = np.arange(8).reshape(-1,2)
+print(np.dot(test1, c))
+print(np.dot(test2, c))
+print(np.dot(test3, c))
+```
+
+#### 전치 행렬 : transpose()
+```python
+print(c.transpose())
+print(c.T)
+print(np.dot(c, c.T))
+```
+
+#### Slicing
+```python
+a = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]          
+print(a[0], a[1])                           # 0 1
+print(a[len(a)-1], a[len(a)-2])             # 9 8
+print(a[-1], a[-2])                         # 9 8
+
+print(a[3:7])                               # slicing (range 와 동일하게 동작함)
+
+# 앞쪽 절반을 출력
+print(a[:int(len(a)/2)])                    # [0, 1, 2, 3, 4]
+# 뒤쪽 절반을 출력
+print(a[int(len(a)/2):])                    # [5, 6, 7, 8, 9]
+
+# 짝수 번째만 출력
+print(a[::2])                               # [0, 2, 4, 6, 8]
+# 홀수 번째만 출력
+print(a[1::2])                              # [1, 3, 5, 7, 9]
+
+# 거꾸로 출력
+print(a[::-1])                              # [9, 8, 7, 6, 5, 4, 3, 2, 1, 0]
+```
