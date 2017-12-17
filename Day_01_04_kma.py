@@ -59,8 +59,6 @@ for loc in locations:
     #     row += items
     #
     #     print(row)
-    #     writer.writerow(row)hello
-
-
+    #     writer.writerow(row)
 # ------------------------------------------------------------------------------- #
 f.close()

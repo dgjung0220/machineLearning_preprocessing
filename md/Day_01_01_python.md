@@ -7,6 +7,7 @@ machine learning을 위한 tensorflow, scikit-learn 등을 다루기 위해 파�
     * (실력)[파이썬 코딩의 기술](http://www.yes24.com/24/goods/25138160?scode=032&OzSrank=1)
     * (분석-NumPy,pandas)[파이썬 라이브러리를 활용한 데이터 분석](http://www.hanbit.co.kr/store/books/look.php?p_code=B6540908288)
     * (분석-Scikitlearn)[파이썬 라이브러리를 활용한 머신러닝](http://www.hanbit.co.kr/store/books/look.php?p_code=B6119391002)
+    * (딥러닝)[파이썬을 이용한 머신러닝, 딥러닝 실전 개발 입문](http://www.yes24.com/24/Goods/42496558?Acode=101)
 --- 
 
 #### 변수 타입
@@ -179,7 +180,7 @@ for i in d:
 d[0] = 1                        # error. 튜플은 데이터를 변경할 수 없다.
 d.append(17)                    # error.
 ```
-tuple은 파이썬 내부 계산에서 많이 사용한다.ㅍ다중 치환이 되는 이유도 tuple 때문임, 아래와 같이 다중 치환할 경우, 튜플 하나를 대입하는 것과 같다.
+tuple은 파이썬 내부 계산에서 많이 사용한다.다중 치환이 되는 이유도 tuple 때문임, 아래와 같이 다중 치환할 경우, 튜플 하나를 대입하는 것과 같다.
 ```python
 (a1, a2) = (3, 4)
 print(a1, a2)                   # 3 4
