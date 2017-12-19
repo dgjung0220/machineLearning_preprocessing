@@ -108,42 +108,44 @@ def graph08():
     plt.tight_layout()                                          # tight
     plt.show()
 
-f = open('Data/2016_GDP.txt', 'r', encoding='utf-8')
-f.readline()                                                    # head 한 번 읽어서 제낌
+def graph09():
+    f = open('Data/2016_GDP.txt', 'r', encoding='utf-8')
+    f.readline()                                                    # head 한 번 읽어서 제낌
 
-names, money = [], []
-for row in csv.reader(f, delimiter=':'):
-    #print(row)
-    names.append(row[1])
-    money.append(int(row[2].replace(',','')))                   # money 쉼표 제거 후, int 로 형변환
-f.close()
+    names, money = [], []
+    for row in csv.reader(f, delimiter=':'):
+        #print(row)
+        names.append(row[1])
+        money.append(int(row[2].replace(',','')))                   # money 쉼표 제거 후, int 로 형변환
+    f.close()
 
-# 한글 사용되는 font로 변경
-path = 'C:\\Windows\Fonts\malgun.ttf'
-font_name = font_manager.FontProperties(fname=path).get_name()
-print(font_name)
-rc('font', family=font_name)
+    # 한글 사용되는 font로 변경
+    path = 'C:\\Windows\Fonts\malgun.ttf'
+    font_name = font_manager.FontProperties(fname=path).get_name()
+    print(font_name)
+    rc('font', family=font_name)
 
-# print(*names, sep='\n')
-# print(*money, sep='\n')
+    # print(*names, sep='\n')
+    # print(*money, sep='\n')
 
-# 문제
-# GDP top10 을 막대 그래프로 그려 보세요.
-top10_country = names[:10]
-index = np.arange(len(top10_country))
+    # 문제
+    # GDP top10 을 막대 그래프로 그려 보세요.
+    top10_country = names[:10]
+    index = np.arange(len(top10_country))
 
-# plt.bar(index, money[:10], color=colors.BASE_COLORS)
-plt.bar(index, money[:10], color=colors.TABLEAU_COLORS)
-# plt.bar(index, money[:10], color='rgb')
-# plt.bar(index, money[:10], color=['red', 'green', 'blue', 'cyan'])
-plt.title('GDP TOP 10')
+    # plt.bar(index, money[:10], color=colors.BASE_COLORS)
+    plt.bar(index, money[:10], color=colors.TABLEAU_COLORS)
+    # plt.bar(index, money[:10], color='rgb')
+    # plt.bar(index, money[:10], color=['red', 'green', 'blue', 'cyan'])
+    plt.title('GDP TOP 10')
 
-# plt.xticks(index, top10_country)
-# plt.xticks(index, top10_country, rotation='vertical')
-plt.xticks(index, top10_country, rotation=45)
+    # plt.xticks(index, top10_country)
+    # plt.xticks(index, top10_country, rotation='vertical')
+    plt.xticks(index, top10_country, rotation=45)
 
-# 문제
-# 나라 이름이 잘리지 않게 해주세요.
-plt.subplots_adjust(bottom=0.2, top=0.9)
-plt.show()
+    # 문제
+    # 나라 이름이 잘리지 않게 해주세요.
+    plt.subplots_adjust(bottom=0.2, top=0.9)
+    plt.show()
 
+graph09()
