@@ -8,5 +8,6 @@
 - [공공 데이터 다루기 - 도서관 빈 자리 찾기](./md/Day_02_01_library_System.md)
 - [Matplotlib 기본](./md/Day_02_03_matplotlib.md)
 - [JSON](./md/Day_02_04_json.md)
+- [Pandas](./md/Day_02_05_pandas.md)
 ---
 
